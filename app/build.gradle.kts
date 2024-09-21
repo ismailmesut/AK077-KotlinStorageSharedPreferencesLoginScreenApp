@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlinstoragesharedpreferencesloginscreenapp"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlinstoragesharedpreferencesloginscreenapp"
         minSdk = 24
